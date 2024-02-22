@@ -56,7 +56,7 @@
         <a href="https://github.com/seoyeonjin"><img src="https://avatars.githubusercontent.com/u/68274803?v=4" width="150px" alt="서연진"/><br /></a>
      </td>
     <td align="center">
-      <a href="https://github.com/haechan29"><img src="https://avatars.githubusercontent.com/u/63138511?v=4" width="150px;" alt="임해찬"/><br /></a><br />
-      </td>
+      <a href="https://github.com/haechan29"><img src="https://avatars.githubusercontent.com/u/63138511?v=4" width="150px;" alt="임해찬"/><br /></a>
+    </td>
   <tr>
 </table>
