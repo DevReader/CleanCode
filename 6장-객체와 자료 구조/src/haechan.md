@@ -24,3 +24,19 @@ __자료 구조__
 - 기차 충돌을 피하기 위해선 자료 구조와 객체를 구분하라<br/>
   (__변수를 공개하고 싶지 않다면 getter, setter 만들지 말아야 한다__)
 <br/>
+
+## 실습
+
+### 사례 1
+- 객체가 의도치 않게 수정될 수 있음
+```
+    val books = mutableListOf<Book>()
+```
+<br/>
+
+- 객체를 공개하되, 수정할 수 없음
+```
+    private val _books = mutableListOf<Book>()
+    val books: List<Book> get() = _book
+```
+<br/>
