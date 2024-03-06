@@ -12,3 +12,18 @@
 - __필드__ 는 클래스 맨 위에
 - __종속 함수__ 는 호출하는 함수 바로 아래에
 <br/>
+
+## 실습
+### 사례 1
+- 들여쓰기 __무시__
+```
+if (isDeleteBookBtnVisible()) toggleVisibilityOfDeleteButton()
+```
+<br/>
+
+- 들여쓰기 __적용__
+```
+if (isDeleteBookBtnVisible()) { 
+    toggleVisibilityOfDeleteButton()
+}
+```
