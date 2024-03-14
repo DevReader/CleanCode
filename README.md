@@ -50,12 +50,30 @@
       <td rowspan="2">1주차</td>
       <td><a href="/1장-깨끗한 코드/README.md">1장-깨끗한 코드</a></td>
     </tr>
-    <tr><td><a href="/2장-의미있는 이름/README.md">2장-의미있는 이름</a></td></tr>
+    <tr>
+      <td><a href="/2장-의미있는 이름/README.md">2장-의미있는 이름</a></td>
+    </tr>
     <tr>
       <td rowspan="2">2주차</td>
       <td><a href="/3장-함수/README.md">3장-함수</a></td>
     </tr>
-    <tr><td><a href="/4장-주석/README.md">4장-주석</a></td></tr>
+    <tr>
+      <td><a href="/4장-주석/README.md">4장-주석</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">3주차</td>
+      <td><a href="/5장-형식 맞추기/README.md">5장-형식 맞추기</a></td>
+    </tr>
+    <tr>
+      <td><a href="/6장-객체와 자료 구조/README.md">6장-객체와 자료 구조</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">4주차</td>
+      <td><a href="/7장-오류 처리/README.md">7장-오류 처리</a></td>
+    </tr>
+    <tr>
+      <td><a href="/8장-경계/README.md">8장-경계</a></td>
+    </tr>
   </tbody>
 </table>
 
