@@ -57,3 +57,39 @@ given/when 부분을 부모 클래스에 두고 then 부분을 자식 클래스�
 - TDD로 개발하는 개발자의 효율에 대해서?
   - 어떤 상황에서 TDD를 사용하는 게 좋을까? 조프로젝트 규모, 기간 ..
 - 이미 작동하고 있는 코드에 대해서 테스트 코드를 작성하는 것?
+
+### 실습
+
+```js
+// ...
+
+  it('should return works by category', async () => {
+    const uid = 'user_id';
+    const category = 'category';
+    const expectedWorks: GetWorkDto[] = [
+      // 예상 값 리스트
+    ];
+
+    (workModel.aggregate as jest.Mock).mockReturnValueOnce(expectedWorks);
+
+    const result = await workService.getWorksByCategory(uid, category);
+
+    expect(result).toEqual(expectedWorks);
+    expect(workModel.aggregate).toBeCalledWith([
+      {
+        $match: {
+          author: uid,
+          category: category,
+        },
+      },
+      // ...
+    ])
+  });
+});
+
+// ...
+```
+
+문제: 테스트할 수 있는 코드가 존재하지 않음
+
+→ jest를 사용해서 nestjs의 함수를 테스트하는 파일을 생성
