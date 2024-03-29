@@ -11,3 +11,23 @@
 
 **개념 당 assert 하나**<br/>
 - JUnit @Tag 사용하기.<br/><br/>
+
+### 실습
+**[기존 코드]**<br/>
+```kotlin
+// 비슷한 기능의 테스트가 그룹화되어 있지 않다.
+@Test
+fun supportsNumberWithAddition() {
+    assertEquals(toDecimal("MMVI"), 2006)
+}
+
+@Test
+fun supportsNumberWithSubtraction() {
+    assertEquals(toDecimal("MCMXLIV"), 1944)
+}
+
+```
+
+<br/>
+
+➡️ 그룹화하고 이름 붙이기("숫자 연산을 지원한다" 등)<br/>
