@@ -74,6 +74,13 @@
     <tr>
       <td><a href="/8장-경계/README.md">8장-경계</a></td>
     </tr>
+    <tr>
+      <td rowspan="2">5주차</td>
+      <td><a href="/9장-단위 테스트/README.md">9장-단위 테스트</a></td>
+    </tr>
+    <tr>
+      <td><a href="/10장-클래스/README.md">10장-클래스</a></td>
+    </tr>
   </tbody>
 </table>
 
