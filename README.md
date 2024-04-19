@@ -94,6 +94,13 @@
     <tr>
       <td><a href="/12장-창발성/README.md">12장-창발성</a></td>
     </tr>
+    <tr>
+      <td rowspan="2">7주차</td>
+      <td><a href="/13장-동시성/README.md">13장-동시성</a></td>
+    </tr>
+    <tr>
+      <td><a href="/14장-점진적인 개선/README.md">14장-점진적인 개선</a></td>
+    </tr>
   </tbody>
 </table>
 
