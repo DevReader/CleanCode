@@ -101,6 +101,10 @@
     <tr>
       <td><a href="/14장-점진적인 개선/README.md">14장-점진적인 개선</a></td>
     </tr>
+    <tr>
+      <td rowspan="2">8주차</td>
+      <td><a href="/16장-SerialDate 리팩터링/README.md">16장-SerialDate 리팩터링</a></td>
+    </tr>
   </tbody>
 </table>
 
